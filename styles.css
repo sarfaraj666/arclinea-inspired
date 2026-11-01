@@ -55,9 +55,7 @@ p {
   right: 0;
   top: 0;
   height: 100px;
-  background: rgba(255, 255, 255, .03);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,9 +66,7 @@ p {
 
 .site-header.scrolled {
   position: fixed;
-  background: rgba(239, 238, 233, .78);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: #efeee9;
   color: var(--ink);
   height: 76px;
   border-bottom: 1px solid #dedcd6
